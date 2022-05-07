@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: darkslategrey;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo-header {
+  width: 100px;
+}
+
+h1 {
+  color: gold;
+  font-size: 60px;
+}
+
+.trybewarts-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('release_1_hogwarts.png');
+  padding: 80px;
+  min-height: 1000px;
+}
+
+.lintLegal , select , textarea {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: transparent;
+  margin: 5px;
+  border: 1px solid white;
+}
+
+textarea {
+  font-weight: 900;
+  text-decoration-color: black;
+  background-color: rgba(220, 220, 220, 0.4);
+}
+
+footer {
+  background-color: darkslategray;
+  text-align: center;
+  color: gold;
+}
+
+.button {
+  width: 70px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: gold;
+}
+
+.container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  background-color: darkslategray;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#submit-btn {
+  align-self: center;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+  min-height: 894px;
+}
+
+#trybewarts-forms-logo {
+  height: 600px;
+}
+
+#nome-completo {
+  display: flex;
+
+}
+
+#emailcasa {
+  display: flex;
+}
+
+.rating {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px;
+}
+
+.rating label {
+  margin-right: 10px;
+}
+
+.container div label {
+  margin-right: 10px;
+}
